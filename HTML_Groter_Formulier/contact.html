@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1 class="blue-border"> Contactpagina</h1>
+
+    <form name="contact" method="POST" data-netlify="true">
+
+        <p>
+            <label>Naam:<br>
+                <input type="text" name="name">
+            </label>
+        </p>
+        <p>
+            <label>E-mailadres:<br>
+                <input type="e-mail" name="e-mail">
+            </label>
+        </p>
+        <p>
+            <label> Telefoonnummer:<br>
+                <input type="tel" name="telefoonnummer"><br>
+            </label>
+        </p>
+        <p>
+            <label> Geboortedatum:<br>
+                <input type="date" name="geboortedatum"><br>
+            </label>
+        </p>
+        <p>
+            <label> Geslacht:<br>
+                <input type="radio" id="male" name="Geslacht" value="male">
+                <label for="male">Man</label>
+                <br>
+                <input type="radio" id="female" name="Geslacht" value="female">
+                <label for="female">Vrouw</label>
+            </label>
+        </p>
+        <p>
+            <label for="favcuisine"> Favoriete cuisine: <br>
+                <input type="checkbox" id="cuisine1" name="cuisine1">
+                <label for="cuisine1">Frans</label>
+                <br>
+                <input type="checkbox" id="cuisine2" name="cuisine2">
+                <label for="cuisine2">Italiaans</label>
+                <br>
+                <input type="checkbox" id="cuisine3" name="cuisine3">
+                <label for="cuisine3">Spaans</label>
+                <br>
+                <input type="checkbox" id="cuisine4" name="cuisine4">
+                <label for="cuisine4">Arabisch</label>
+            </label>
+        </p>
+        <p>
+            <label for="favcolor">Favoriete kleur schort:</label><br>
+            <input type="color" id="favcolor" name="favcolor" value="#00FFEE">
+        </p>
+        <p>
+            <label>Biografie:<br>
+                <textarea name="Biografie" rows="10" cols="50">
+
+                </textarea>
+            </label>
+        </p>
+        <p>
+            <label> Upload je laatste recept: <br>
+                <input type="file" name="myfile">
+            </label>
+        </p>
+        <p>
+            <label> Url naar je recepten website: <br>
+                <input type="url" name="receptenwebsite">
+            </label>
+        </p>
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Verzend</button>
+        </p>
+    </form>
+
+    <p class="blue-border"><a href="index.html">Terug naar de homepagina.</a></p>
+
+</body>
+
+</html>

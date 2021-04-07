@@ -1,0 +1,121 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    font-size: normal;
+    font-style: italic;
+    font-weight: bold;
+
+    color: rgb(16, 110, 110);
+    background-color: black;
+}
+.text-pink{
+    color: crimson;
+}
+figcaption{
+    color: grey;
+    font-size: 10px;
+}
+a{
+    color: darkslategray;
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{ 
+    margin: 0;
+}
+header h1{
+    font-size: 50px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    /*same as above*/
+    padding: 0px 0px;
+}
+main p{
+    margin:20px 0 0 0;
+    border-top: 4px solid rgb(16, 110, 110);
+    border-bottom-right-radius: 7px;
+    padding: 10px 15px;
+}
+main h2{
+    margin:0;
+    padding: 10px 15px;
+}
+main ul{
+    margin: 0 0 0 20px;
+    padding: 10px 15px;  
+}
+.crimson-border{
+    border: 4px solid crimson;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.blue-border{
+    border: 4px solid rgb(16, 110, 110);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#pink-background{
+    background-color: rgba(240, 10, 106, 0.473);
+}
+.lighseagreen, h1{
+    background-color: lightseagreen;
+}
+hr{
+    color:darkslategrey;
+}
+img{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.square-top{
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.center-figure{
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+.list-dots{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list-dots li{
+    padding: 10px 5px;
+    text-align: center;  
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+}
+
+/*media queries*/
+
+@media (max-width: 700px) {
+    body{
+        font-size: 2rem
+    }
+   nav .list-dots li{
+    margin-bottom: 10px;
+    display: block;
+    width: 99%;
+   }
+}
+
+@media (min-width: 1024px){
+    body{
+    color:rgb(24, 23, 23);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    }
+}
